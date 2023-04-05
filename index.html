@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./style/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="nav__img">
+                    <img class="" src="./img/logo.svg" alt="logo">
+                </a>
+                <div class="nav-list">
+                    <a href="/vacancy" class="nav-item">
+                        <span class="">Работы</span>
+                        <span class="nav-item__counter">+12</span>
+                    </a>
+                    <a href="/services" class="nav-item">
+                        <span class="">Услуги</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span class="">О компании</span>
+                    </a>
+                    <div class="nav-list__buttons">
+                        <a href="/feed" class="btn btn-wide nav-list__button">
+                            Написать нам
+                            <img src="./img/icon/message.svg" alt="message">
+                        </a>
+                        <button class="btn nav-list__button">
+                            RU
+                        </button>
+                    </div>
+                </div>
+                <div class="nav-toggle">
+                    <div class="nav-toggle-area"></div>
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <div class="nav-side">
+                    <div class="nav-side-list">
+                        <a href="/vacancy" class="nav-item">
+                            <span class="">Работы</span>
+                            <span class="nav-item__counter">+12</span>
+                        </a>
+                        <a href="/services" class="nav-item">
+                            <span class="">Услуги</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span class="">О компании</span>
+                        </a>
+                        <a href="/feed" class="btn btn-wide nav-list__button">
+                            Написать нам
+                            <img src="./img/icon/message.svg" alt="message">
+                        </a>
+                        <button class="btn nav-list__button">
+                            RU
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-wrapper">
+                <div class="header-content">
+                    <h1 class="header-title title">
+                        <span class="primary-color">Разрабатываем, поддерживаем</span>
+                        и <span class="primary-color">оптимизируем</span> цифровые решения
+                    </h1>
+                    <a href="" class="header-videolink">
+                        <div class="header-video">
+                            <img src="./img/header-video.png" alt="header-video">
+                            <span class="text-primary">Смотреть шоурил</span>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="header-links">
+                    <a href="" class="header-link header-scroll">
+                        <img src="./img/icon/mouse.svg" alt="header-mouse">
+                        <span class="text-primary">Скролл вниз</span>
+                    </a>
+                    <div class="header-socials">
+                        <a href="" class="header-social btn">
+                            <img src="./img/icon/map.svg" alt="map">
+                        </a>
+                        <a href="" class="header-social btn">
+                            <img src="./img/icon/behance.svg" alt="behance">
+                        </a>
+                        <a href="" class="header-social btn">
+                            <img src="./img/icon/ball.svg" alt="ball">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+     <section class="advantage">
+        <div class="container">
+            <div class="advantage-list">
+                <div class="advantage-item">
+                    <div class="advantage-item__counter primary-color title">№4</div>
+                    <div class="advantage-item__title">Рейтинг рунета</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-item__counter primary-color title">200+</div>
+                    <div class="advantage-item__title">Успешных кейсов</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-item__counter primary-color title">15</div>
+                    <div class="advantage-item__title">Лет опыта</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-item__counter primary-color title">72</div>
+                    <div class="advantage-item__title">Награды</div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="presentation dark">
+        <div class="container">
+            <div class="presentation-content">
+                <div class="presentation-title">Практикуем продуктовый подход и знаем, как развивать цифровой сервис на
+                    любой стадии его существования</div>
+                <p class="presentation-text text-primary">
+                    Чтобы опередить время, нужно без остановки двигаться вперёд. Постоянно генерировать новые идеи,
+                    придумывать, как быстро
+                    и недорого протестировать гипотезы, и иметь смелость вовремя отбросить неподтвердившиеся.
+                </p>
+                <a href="" class="presentation-link">
+                    <div class="presentation-link__content">
+                        <img src="./img/icon/presentation.svg" alt="presentation">
+                        <span>Скачать презентацию</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+  <section class="services">
+        <div class="container">
+            <h2 class="services-title title">Услуги</h2>
+            <div class="services-list card-list">
+                <div class="swiper work-list " id="swiperservices">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="services-item card">
+                                <div class="services-item__header">
+                                    <div class="btn services-item__header-icon">
+                                        <img src="./img/icon/paint.svg" alt="paint">
+                                    </div>
+                                    <h3 class="services-item__header-title">Design</h3>
+                                </div>
+                                <div class="services-item__tags">
+                                    <div class="tag services-item__tag primary-color">UI & UX</div>
+                                    <div class="tag services-item__tag primary-color">Mobile apps</div>
+                                    <div class="tag services-item__tag primary-color">Brand identity</div>
+                                    <div class="tag services-item__tag primary-color">Motion design</div>
+                                </div>
+                                <p class="services-item__text">Мы тщательно подходим к созданию продуктов для наших клиентов, а
+                                    конечным результатом является решение, которое будет способствовать развитию вашего бизнеса и
+                                    удовлетворению потребностей ваших пользователей.</p>
+                                <a href="" class="btn services-item__link">Узнать подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="services-item card">
+                                <div class="services-item__header">
+                                    <div class="btn services-item__header-icon">
+                                        <img src="./img/icon/code.svg" alt="code">
+                                    </div>
+                                    <h3 class="services-item__header-title">Development</h3>
+                                </div>
+                                <div class="services-item__tags">
+                                    <div class="tag services-item__tag primary-color">Web app</div>
+                                    <div class="tag services-item__tag primary-color">Mobile app</div>
+                                    <div class="tag services-item__tag primary-color">Websites</div>
+                                    <div class="tag services-item__tag primary-color">Webflow</div>
+                                    <div class="tag services-item__tag primary-color">E-commerce</div>
+                                </div>
+                                <p class="services-item__text">Мы создаем привлекательные и высокооптимизированные веб-сайты,
+                                    которые передают историю и ценности вашего бизнеса вашей целевой аудитории, а также
+                                    предоставляют возможности для маркетинга.</p>
+                                <a href="" class="btn services-item__link">Узнать подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="services-item card">
+                                <div class="services-item__header">
+                                    <div class="btn services-item__header-icon">
+                                        <img src="./img/icon/magic.svg" alt="magic">
+                                    </div>
+                                    <h3 class="services-item__header-title">Marketing</h3>
+                                </div>
+                                <div class="services-item__tags">
+                                    <div class="tag services-item__tag primary-color">Brand strategy</div>
+                                    <div class="tag services-item__tag primary-color">Product strategy</div>
+                                    <div class="tag services-item__tag primary-color">Copywriting</div>
+                                    <div class="tag services-item__tag primary-color">Naming</div>
+                                </div>
+                                <p class="services-item__text">Мы тщательно подходим к созданию продуктов для наших клиентов,
+                                    а конечным результатом является решение, которое будет способствовать развитию вашего бизнеса и
+                                    удовлетворению потребностей ваших пользователей.</p>
+                                <a href="" class="btn services-item__link">Узнать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+                
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="container">
+            <h2 class="projects-title title">Реализованные проекты</h2>
+            <div class="projects-tags" v-scope>
+                <div class="tag projects-tag primary-color" v-for="(item, index) in project_tags" :key="index" :class="current_project == index && 'active'" @click="current_project = index">{{item}}</div>
+            </div>
+            <div class="projects-list">
+                <div class="swiper work-list " id="swiperprojects" v-scope>
+                    <div class="swiper-wrapper" >
+                        <div class="swiper-slide" v-for="(item, index) in filterProject" :key="index">
+                            <div class="projects-item">
+                                <div class="projects-item__img">
+                                    <img :src="`./img/projects/${item.img}.png`" alt="design">
+                                </div>
+                                <h3 class="projects-item__title">
+                                    {{item.title}}
+                                </h3>
+                                <div class="projects-item__text">{{item.text}}</div>
+                                <a :href="item.link" class="btn projects-item__link">Узнать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="team">
+        <div class="container">
+            <div class="team-content">
+                <div class="team-title title">
+                    <span>30+</span><br /> <i>участников</i> <br /> команды
+                </div>
+                <div class="avatar-list">
+                    <div class="avatar ivan">
+                        <div class="avatar-head">
+                            <img src="./img/head/ivan.png" alt="ivan" />
+                        </div>
+                        <div class="avatar-name">Иван</div>
+                    </div>
+                    <div class="avatar sergei">
+                        <div class="avatar-head">
+                            <img src="./img/head/sergei.png" alt="sergei" />
+                        </div>
+                        <div class="avatar-name dark">Сергей</div>
+                    </div>
+                    <div class="avatar danil">
+                        <div class="avatar-head">
+                            <img src="./img/head/danil.png" alt="danil" />
+                        </div>
+                        <div class="avatar-name dark">Даниил</div>
+                    </div>
+                    <div class="avatar daria">
+                        <div class="avatar-head">
+                            <img src="./img/head/daria.png" alt="daria" />
+                        </div>
+                        <div class="avatar-name dark">Дарья</div>
+                    </div>
+                    <div class="avatar margarita">
+                        <div class="avatar-head">
+                            <img src="./img/head/margarita.png" alt="margarita" />
+                        </div>
+                        <div class="avatar-name dark">Маргарита</div>
+                    </div>
+                    <div class="avatar artem">
+                        <div class="avatar-head">
+                            <img src="./img/head/artem.png" alt="artem" />
+                        </div>
+                        <div class="avatar-name">Артем</div>
+                    </div>
+                    <div class="avatar anastasia">
+                        <div class="avatar-head">
+                            <img src="./img/head/anastasia.png" alt="anastasia" />
+                        </div>
+                        <div class="avatar-name dark">Анастасия</div>
+                    </div>
+                    <div class="avatar anton">
+                        <div class="avatar-head">
+                            <img src="./img/head/anton.png" alt="anton" />
+                        </div>
+                        <div class="avatar-name dark">Анатолий</div>
+                    </div>
+                    <div class="avatar georgie">
+                        <div class="avatar-head">
+                            <img src="./img/head/georgie.png" alt="georgie" />
+                        </div>
+                        <div class="avatar-name">Георгий</div>
+                    </div>
+                    <div class="avatar maria">
+                        <div class="avatar-head">
+                            <img src="./img/head/maria.png" alt="maria" />
+                        </div>
+                        <div class="avatar-name dark">Мария</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <sections class="work">
+
+        <div class="container">
+            <div class="work-heads">
+                <h2 class="work-title title">Как мы работаем</h2>
+                <div class="avatar-list">
+                    <div class="avatar ivan">
+                        <div class="avatar-head">
+                            <img src="./img/head/ivan.png" alt="ivan" />
+                        </div>
+                    </div>
+                    <div class="avatar margarita">
+                        <div class="avatar-head">
+                            <img src="./img/head/margarita.png" alt="margarita" />
+                        </div>
+                    </div>
+                    <div class="avatar danil">
+                        <div class="avatar-head">
+                            <img src="./img/head/danil.png" alt="danil" />
+                        </div>
+                    </div>
+                    <div class="avatar anastasia">
+                        <div class="avatar-head">
+                            <img src="./img/head/anastasia.png" alt="anastasia" />
+                        </div>
+                    </div>
+                    <div class="avatar daria">
+                        <div class="avatar-head">
+                            <img src="./img/head/daria.png" alt="daria" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-list">
+                <div class="swiper work-list " id="swiperabout">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="work-item card active">
+                                <div class="btn card-icon work-item__icon">
+                                    <img src="./img/icon/magic.svg" alt="paint">
+                                </div>
+                                <h3 class="work-item__title">Оценка проекта</h3>
+                                <p class="work-item__text">Собираем аналитику и погружаемся
+                                    в контекст — исследуем рынок, анализируем конкурентов.
+                                    Создаем пользовательские сценарии
+                                    и оцениваем объем работ на основе пожеланий и требований клиента.
+                                    За счет этого мы предусматриваем
+                                    все проблемные моменты
+                                    и возможные изменения.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="work-item card">
+                                <div class="btn card-icon work-item__icon">
+                                    <img src="./img/icon/paint.svg" alt="paint">
+                                </div>
+                                <h3 class="work-item__title">UX/UI дизайн</h3>
+                                <p class="work-item__text">Начинаем с проработки внутренней логики — создаем майндмэп.
+                                    Затем
+                                    переносим ее в черно-белые вайрфреймы. Когда логика работы согласована,
+                                    прорабатываем
+                                    1-2
+                                    экрана
+                                    из главного пользовательского сценария, чтобы определиться с основным стилем
+                                    интерфейса.
+                                    Затем
+                                    прорабатываем все детали, финализируем дизайн и создаем UI-кит для удобной и быстрой
+                                    разработки.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="work-item card">
+                                <div class="btn card-icon work-item__icon">
+                                    <img src="./img/icon/code.svg" alt="code">
+                                </div>
+                                <h3 class="work-item__title">Разработка</h3>
+                                <p class="work-item__text">Весь процесс разработки мы делим на 2-недельные спринты. Это
+                                    позволяет
+                                    клиенту контролировать ход работы и быстро вносить изменения. Пробные релизы делаем
+                                    в
+                                    TestFlight
+                                    и Google Play бета-тестировании, чтобы показать, как приложение работает
+                                    на реальных устройствах.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="work-item card">
+                                <div class="btn card-icon work-item__icon">
+                                    <img src="./img/icon/chart.svg" alt="chart">
+                                </div>
+                                <h3 class="work-item__title">Тестирование</h3>
+                                <p class="work-item__text">Чтобы мобильные приложения работали без сбоев, а баги не
+                                    пробирались
+                                    в прод, мы тестируем каждый проект вручную и с помощью автоматизированных тестов.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="work-item card">
+                                <div class="btn card-icon work-item__icon">
+                                    <img src="./img/icon/star.svg" alt="star">
+                                </div>
+                                <h3 class="work-item__title">Релиз и поддержка</h3>
+                                <p class="work-item__text">Мы знаем все тонкости публикации
+                                    в App Store и Google Play и всегда доводим релиз до конца.
+                                    А после выхода в релиз поддерживаем
+                                    и развиваем продукты: добавляем
+                                    новые фичи и фиксим баги.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </sections>
+
+   <section class="feedback">
+        <div class="container">
+            <h2 class="feedback-title title">Наши отзывы</h2>
+
+            <div class="swiper " id="swiperfeedback">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="feedback-item">
+                            <div class="feedback-item__left">
+                                <img src="./img/ava.png" alt="ava" class="feedback-item__ava">
+                                <a href="" class="play_btn feedback-item__play">
+                                    <img src="./img/icon/play.svg" alt="play">
+                                </a>
+                            </div>
+                            <div class="feedback-item__right">
+                                <div class="feedback-item__header">
+                                    <div class="feedback-item__header-left">
+                                        <h4 class="feedback-item__header-position">Project Manager Google</h4>
+                                        <h3 class="feedback-item__header-name title">Иванов Иван</h3>
+                                    </div>
+                                    <div class="feedback-item__header-right">
+                                        <a href="">
+                                            <img src="./img/icon/google.svg" class="feedback-item__header-img"
+                                                alt="google">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="feedback-item__slash">
+                                    <img src="./img/icon/slash.svg" alt="slash">
+                                </div>
+                                <p class="feedback-item__text text-primary">
+                                    Работа с Quantum была поистине восхитительным опытом. От нашей стартовой встречи до
+                                    нашей
+                                    окончательной доставки Quantum обладает творческой глубиной, чтобы перейти от идеи к
+                                    полностью упакованному
+                                    и фирменному результату. Их приверженность дизайну всегда сосредоточена на бренде и
+                                    влиянии,
+                                    что очень освежает. Кроме того,
+                                    они являются коммуникаторами мирового класса, что делает процесс веселым и не
+                                    пугающим.
+                                </p>
+                                <div class="btn feedback-paginations">
+                                    <button class="feedback-pagination left swiper-button-prev"><img
+                                            src="./img/icon/left.svg" alt="left"></button>
+                                    <div class="feedback-pagination__text ">
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button class="feedback-pagination right swiper-button-next"><img
+                                            src="./img/icon/right.svg" alt="right"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="feedback-item">
+                            <div class="feedback-item__left">
+                                <img src="./img/ava.png" alt="ava" class="feedback-item__ava">
+                                <a href="" class="play_btn feedback-item__play">
+                                    <img src="./img/icon/play.svg" alt="play">
+                                </a>
+                            </div>
+                            <div class="feedback-item__right">
+                                <div class="feedback-item__header">
+                                    <div class="feedback-item__header-left">
+                                        <h4 class="feedback-item__header-position">Project Manager Google</h4>
+                                        <h3 class="feedback-item__header-name title">Иванов Иван</h3>
+                                    </div>
+                                    <div class="feedback-item__header-right">
+                                        <a href="">
+                                            <img src="./img/icon/google.svg" class="feedback-item__header-img"
+                                                alt="google">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="feedback-item__slash">
+                                    <img src="./img/icon/slash.svg" alt="slash">
+                                </div>
+                                <p class="feedback-item__text text-primary">
+                                    Работа с Quantum была поистине восхитительным опытом. От нашей стартовой встречи до
+                                    нашей
+                                    окончательной доставки Quantum обладает творческой глубиной, чтобы перейти от идеи к
+                                    полностью упакованному
+                                    и фирменному результату. Их приверженность дизайну всегда сосредоточена на бренде и
+                                    влиянии,
+                                    что очень освежает. Кроме того,
+                                    они являются коммуникаторами мирового класса, что делает процесс веселым и не
+                                    пугающим.
+                                </p>
+                                <div class="btn feedback-paginations">
+                                    <button class="feedback-pagination left swiper-button-prev"><img
+                                            src="./img/icon/left.svg" alt="left"></button>
+                                    <div class="feedback-pagination__text ">
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button class="feedback-pagination right swiper-button-next"><img
+                                            src="./img/icon/right.svg" alt="right"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="feedback-item">
+                            <div class="feedback-item__left">
+                                <img src="./img/ava.png" alt="ava" class="feedback-item__ava">
+                                <a href="" class="play_btn feedback-item__play">
+                                    <img src="./img/icon/play.svg" alt="play">
+                                </a>
+                            </div>
+                            <div class="feedback-item__right">
+                                <div class="feedback-item__header">
+                                    <div class="feedback-item__header-left">
+                                        <h4 class="feedback-item__header-position">Project Manager Google</h4>
+                                        <h3 class="feedback-item__header-name title">Иванов Иван</h3>
+                                    </div>
+                                    <div class="feedback-item__header-right">
+                                        <a href="">
+                                            <img src="./img/icon/google.svg" class="feedback-item__header-img"
+                                                alt="google">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="feedback-item__slash">
+                                    <img src="./img/icon/slash.svg" alt="slash">
+                                </div>
+                                <p class="feedback-item__text text-primary">
+                                    Работа с Quantum была поистине восхитительным опытом. От нашей стартовой встречи до
+                                    нашей
+                                    окончательной доставки Quantum обладает творческой глубиной, чтобы перейти от идеи к
+                                    полностью упакованному
+                                    и фирменному результату. Их приверженность дизайну всегда сосредоточена на бренде и
+                                    влиянии,
+                                    что очень освежает. Кроме того,
+                                    они являются коммуникаторами мирового класса, что делает процесс веселым и не
+                                    пугающим.
+                                </p>
+                                <div class="btn feedback-paginations">
+                                    <button class="feedback-pagination left swiper-button-prev"><img
+                                            src="./img/icon/left.svg" alt="left"></button>
+                                    <div class="feedback-pagination__text ">
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button class="feedback-pagination right swiper-button-next"><img
+                                            src="./img/icon/right.svg" alt="right"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <h2 class="footer-title title">
+                            Есть идея? <img src="./img/hm.png" alt="smile">
+                        </h2>
+                        <p class="footer-text">Давайте сделаем что-то удивительное вместе!</p>
+                    </div>
+                    <div class="footer-right">
+                        <a href="" class="btn btn-wide footer__button">
+                            Написать нам
+                            <img src="./img/icon/message.svg" alt="message">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <div class="footer-list">
+                            <div class="footer-item">
+                                <h3>Услуги</h3>
+                                <div class="footer-item__links">
+                                    <a href="" class="footer-item__link">Design</a>
+                                    <a href="" class="footer-item__link">Development</a>
+                                    <a href="" class="footer-item__link">Marketing</a>
+                                </div>
+                            </div>
+                            <div class="footer-item">
+                                <h3>О компании</h3>
+                                <div class="footer-item__links">
+                                    <a href="" class="footer-item__link">О нас</a>
+                                    <a href="" class="footer-item__link">Вакансии</a>
+                                    <a href="" class="footer-item__link">Связаться с нами</a>
+                                </div>
+                            </div>
+                            <div class="footer-item">
+                                <h3>Работы</h3>
+                                <div class="footer-item__links">
+                                    <a href="" class="footer-item__link">Web app</a>
+                                    <a href="" class="footer-item__link">Mobile app</a>
+                                    <a href="" class="footer-item__link">Websites</a>
+                                    <a href="" class="footer-item__link">E-commerce</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <a href="" class="footer-logo">
+                            <img src="./img/logo_light.svg" alt="logo_light">
+                        </a>
+                        <a href="mailto:info@quantum.com" class="link">info@quantum.com</a>
+                        <div class="footer-right__list">
+                            <a href="" class="footer-right__item">Medium</a>
+                            <a href="" class="footer-right__item">Behance</a>
+                            <a href="" class="footer-right__item">Dribbble</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+
+    <script type="module" src="./scripts/script.js"></script>
+</body>
+
+</html>

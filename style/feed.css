@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiboldItalic.woff2") format("woff2"), url("../fonts/Gilroy-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-MediumItalic.woff2") format("woff2"), url("../fonts/Gilroy-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+.feed {
+  padding: 20px 0;
+}
+.feed-content {
+  max-width: 752px;
+  width: 100%;
+  margin: 0 auto;
+}
+.feed-title {
+  margin-bottom: 53px;
+  font-size: 48px;
+  line-height: 57px;
+}
+.feed-title img {
+  max-width: 42px;
+}
+.feed-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0f1112;
+}
+.feed-taglist {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 18px 0 42px;
+}
+@media screen and (max-width: 500px) {
+  .feed-taglist {
+    flex-wrap: wrap;
+  }
+}
+.feed-tagitem {
+  padding: 14px 24px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 24px;
+}
+@media screen and (max-width: 500px) {
+  .form {
+    flex-wrap: wrap;
+  }
+}
+.form-input {
+  max-width: 364px;
+  width: 100%;
+}
+.form-input.wide {
+  max-width: 100%;
+}
+.form-input input,
+.form-input textarea {
+  width: 100%;
+  background: #f3f3f3;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 14px;
+  margin-top: 12px;
+  transition: 0.4s;
+}
+.form-input input:focus, .form-input input:hover,
+.form-input textarea:focus,
+.form-input textarea:hover {
+  background: #e6efff;
+  color: #025aff;
+}
+.form-input textarea {
+  resize: vertical;
+  min-height: 187px;
+}
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 24px;
+}
+@media screen and (max-width: 500px) {
+  .form-footer {
+    flex-wrap: wrap;
+  }
+}
+.form-footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.form-footer__text a {
+  color: #025aff;
+}
+.form-btn {
+  max-width: 443px;
+}
+
+#fileInput {
+  display: none;
+}
+
+.form-input__file {
+  width: 100%;
+  height: 187px;
+  margin-top: 12px;
+  background: #f3f8ff;
+  border: 2px dashed rgba(2, 90, 255, 0.5);
+  border-radius: 14px;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #ccc;
+}
+@media screen and (max-width: 500px) {
+  .form-input__file {
+    flex-wrap: wrap;
+  }
+}
+.form-input__file.dragover {
+  border-color: #333;
+  color: #333;
+}
+.form-input__file-label {
+  color: #025AFF;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 18px;
+  line-height: 32px;
+  line-height: 21px;
+  gap: 30px;
+}
+@media screen and (max-width: 500px) {
+  .form-input__file-label {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 640px) {
+  .form-input__file-label {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .form-input__file-label {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+.form-input__file-label span {
+  max-width: 406px;
+}/*# sourceMappingURL=feed.css.map */
